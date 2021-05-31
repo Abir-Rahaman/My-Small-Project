@@ -1,0 +1,35 @@
+h1{
+    background-color: black;
+    color:tomato;
+    border: 2px solid wheat;
+    border-radius: 30px;
+    font-size: 150px;
+    text-align: center;
+}
+
+body{
+   width: 35%;
+   padding: 15% 33%;
+   cursor: pointer;
+}
+.t{
+    text-shadow: -3px -3px 10px red,
+    -3px -3px 10px red,
+    0px 0px 20px red,
+    0px 0px 40px red,
+    0px 0px 60px red,
+    0px 0px 80px red,
+    0px 0px 100px red;
+    box-shadow: 0 0 5px brown,
+    inset 0 0 5px brown,
+    0 0 20px brown,
+    inset 0 0 20px brown, 
+    0px 0px 40px brown,
+    inset 0 0 40px brown;
+
+
+
+
+
+
+}

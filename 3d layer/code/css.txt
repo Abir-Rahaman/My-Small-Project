@@ -1,0 +1,39 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.d{
+    position: relative;
+    height:415px;
+    width:250px;
+    background: rgba(0,0,0,0.1);
+    transform:rotate(-20deg) skew(15deg);
+    transition:0.5sec; 
+
+
+}
+.d img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    transition: 0.5s;
+    
+}
+.d:hover img:nth-child(5) {
+    transform: translate(120px,-120px);
+    opacity: 1;
+}
+.d:hover img:nth-child(4) {
+    transform: translate(80px,-80px);
+    opacity: 1;
+}
+.d:hover img:nth-child(3) {
+    transform: translate(40px,-40px);
+    opacity: 1;
+}
+

@@ -1,0 +1,32 @@
+*{
+    padding: 0%;
+    margin: 0%;
+} 
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url(img/elements.png);
+    height: 100vh;
+    width: 100%;
+    
+    
+    background-position: center;
+    fill-opacity: 0;
+    stroke:black ;
+    stroke-width: 4px;stroke-dashoffset: 0;
+    stroke-dasharray: 4100;
+    animation: body 6s ease-in-out;
+}
+#Layer_1{
+    width: 400px;
+    margin: 10% auto;
+    display: block;
+}
+@keyframes body{
+    0%{
+        stroke-dashoffset: 4100;
+
+    }
+    100%{
+        stroke-dashoffset: 0;
+        
+    }
+}

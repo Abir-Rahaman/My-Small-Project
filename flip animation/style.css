@@ -1,0 +1,63 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: sans-serif;
+}
+.t{
+    text-align: center;
+    margin: 40px auto 30px;
+}
+.flip{
+    width: 300px;
+    height: 450px;
+    margin: auto;
+}
+.flip img{
+    height: 320px;
+    width: 300px;
+}
+.back{
+    background-color: brown;
+    color: tomato;
+    text-align: center;
+    transform: rotateY(180deg);
+}
+.back .header{
+    height: 45%;
+    text-align: center;
+    backface-visibility: hidden;
+
+
+}
+.back .header img{
+    width:  90%;
+    margin-top: 20px;
+    height: 100%;
+}
+
+.inner{
+    position: relative;
+    height: 71%;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
+.back, .front{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+}
+.front{
+    height: 100%;
+    width: 100%;
+}
+.flip:hover .inner{
+    transform: rotateY(180deg);
+} 
+button{
+   margin-top: 10px;
+   border: 2px solid red;
+   border-radius: 30px;
+   color:teal ;
+   background-color: brown
+}

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>360 degree img</title>
+</head>
+<body>
+    <div class="img">
+        <iframe class="f" src="https://momento360.com/e/u/674ce08ed0fe4ee882ffa47ebaac379f?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium" frameborder="0"></iframe>
+    </div>
+    
+</body>
+</html>

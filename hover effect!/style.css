@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.wrapper{
+    display: inline-flex;
+    color: aliceblue;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+   
+   
+}
+.wrapper a{
+    width: 150px;
+    height: 50px;
+    text-decoration: none;
+    font-size: 20px;
+    color:hotpink;
+   
+    border: 2px solid khaki;
+    border-radius: 40px;
+    text-align: center;
+    line-height: 50px;
+    margin: 30px;
+    font-family: sans-serif;
+    position: relative;
+    margin: 10px;
+    background-color: lawngreen;
+
+
+}
+.wrapper a span{
+    
+    position: absolute;
+    width: 220px;
+    height: 70px;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    transition: 0.8s  ease-out;
+}
+.wfrapper a:hover{
+    color: royalblue;
+    transition: 7s;
+}
+.a{
+    width: 220px;
+    height: 70px;
+    color: transparent;
+}
+.a.wrrapper a:hover .a{
+    width: 220px;
+    transition: 0.8s;
+
+
+
+
+}

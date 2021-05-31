@@ -1,0 +1,30 @@
+*{
+    padding: 0%;
+    margin: 0;
+}
+
+.a1{
+    height: 100vh;
+    width: 100%;
+    background-image: url(img/background.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.a2{
+    height: 100%;
+    width: 100%;
+
+ 
+    background: linear-gradient(135deg, rgba(0,0,0,0.4)0%,rgba(0,0,0,0.4)25%,rgba(0,23,149,0.6)50%,rgba(255,0,0,0.6)75%,rgba(0,23,149,0.6)100%);
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    background-repeat: no-repeat;
+    background-size: 400% 400%;
+    transition: 2s;
+}
+.a1:hover .a2{
+    background-position:100% 100%;
+}

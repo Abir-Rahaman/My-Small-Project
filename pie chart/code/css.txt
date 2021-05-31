@@ -1,0 +1,9 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.c{
+    margin: 200px auto;
+    width: 600px;
+    height: 800px;
+}

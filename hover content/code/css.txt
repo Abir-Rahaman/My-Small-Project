@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.hero{
+    background: url(img/background.png);
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+    
+}
+.hero img{
+    height: 70px;
+    width: 60px;
+    padding: 40px;
+}
+.h{
+    text-align: center;
+}
+.h h1{
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 40px;
+    
+}
+
+.h p{
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 40px;
+}
+.h button{
+    width: 220px;
+    padding: 12px 0;
+    color: darkcyan;
+    font-size: 20px;
+    border: darkcyan solid 2px;
+    border-radius: 40px;
+    background: transparent;
+    cursor: pointer;
+
+}
+.side{
+    height: 350px;
+    width: 60px;
+    background:transparent;
+    border: 2px solid wheat;
+    border-radius: 40px;
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    transform: translateY(-50%);
+    align-items: center;
+    
+}
+.icon{
+    width: 40px;
+    height: 68px;
+    display: flex;
+    justify-content: flex-end;
+    margin: px auto;
+    align-items: center;
+    
+}
+.text{
+    min-width: 0px;
+    height: 100%;
+    background: goldenrod;
+    margin-right: 25px;
+    line-height: 0px;
+    color: cornsilk;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px 0 0 5px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.iccon{
+    min-width: 20px;
+    height: 35%;
+    border-radius: 40px;
+    cursor: pointer;
+    padding: 1px 6px 17px 5px;
+    margin: 4px -3px 13px 8px;
+}
+.iccon .fas{
+    font-size: 20px;
+    color: darkorange;
+    line-height: 50px;
+}
+.icon:hover .iccon{
+    background: goldenrod;
+    line-height: 50px;
+}
+.icon:hover .icon .fas{
+    color: rgb(179, 164, 36);
+    line-height: 50px;
+
+}
+.icon:hover .text{
+    min-width: 130px;
+}

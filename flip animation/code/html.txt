@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+<title>animate</title>
+</head>
+<body>
+<div class="t">
+<h1>ABIR COMPANY</h1>
+<P>He is a profeesional engineer</P>
+
+
+</div>
+<div class="flip">
+<div class="inner">
+<div class="front">
+<img src="img/abir.jpg" alt="">
+</div>
+<div class="back">
+<div class="header">
+<img src="img/abir-removebg-preview.png" alt="">
+</div>
+<div class="foot">
+<h2>Abir Rahaman</h2>
+<p>he is a developer</p>
+<p><i class="fas fa-rupee-sign"></i> sallary</p>
+<i class="fas fa-star"></i>
+</div>
+<button type="button">contact</button>
+</div>
+</div>
+</div>
+    
+</body>
+</html>

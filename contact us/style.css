@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Anton', sans-serif;
+    
+}
+body{
+    background-color: bisque;
+    font-size: 15px;
+   
+}
+.con{
+    width: 80%;
+    margin: 50px auto;
+}
+.box{
+    background: white;
+    display: flex;
+}
+.left{
+    flex-basis: 60%;
+    padding: 40px 60px;
+
+}
+.right{
+    flex-basis: 40%;
+    padding: 40px;
+    background: rgb(134, 128, 128);
+    color: black;
+}
+h1{
+    margin-bottom: 10px;
+}

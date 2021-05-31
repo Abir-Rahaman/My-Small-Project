@@ -1,0 +1,67 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: sans-serif;
+}
+
+.a1{
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.inner{
+    margin: 250px auto;
+    width: 500px;
+    height: 500px;
+    background-image: url(img/abir\ 1.jpg);
+    background-position: center;
+    background-size: cover;
+    transform-style: preserve-3d;
+    position: relative;
+    box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.3);
+    transform: translateX(-50%) translateY(-50%) translateZ(-50%);
+}
+
+.BTN{
+    text-decoration: none;
+    padding: 10px 30px;
+    color: burlywood;
+    border: 2px solid white;
+    border-radius: 40px;
+    margin-top: 270px;
+    transition: 0.5s ease;
+    text-align: center;
+    left: 68%;
+    top: 72%;
+    position: absolute;
+    width: 75px;
+    margin-top: -10px;
+    margin-left: -170px;
+    position: absolute;
+    transform: translateX(-50%) translateY(-50%) translateZ(-50%);
+}
+.BTN:hover{
+    background-color:transparent;
+    color:transparent;
+
+}
+
+.BTN:hover{
+    background-color:transparent;
+    color:transparent;
+
+}
+
+.BTN{
+    animation: animate 2s 1;
+}
+@keyframes animate{
+    0%{
+        transform: scale(0);
+    }
+    100%{
+        transform: scale(1);
+    }
+
+  
+}

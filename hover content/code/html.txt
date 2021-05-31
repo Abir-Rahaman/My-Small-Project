@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <div class="hero">
+        <img src="img/arrow.png" alt="">
+        <div class="h">
+        <h1>ABIR</h1>
+        <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit incidunt a excepturi quidem et, veritatis suscipit dolor vel repellendus sit ipsum eum nisi temporibus, iusto pariatur, quisquam reprehenderit laudantium modi!</P>
+
+        <button type="button">book now</button>
+    </div>
+    <div class="side">
+       
+        <div class="icon">
+            <div class="text">
+                our services
+
+            </div>
+            <div class="iccon">
+                <i class="fas fa-laptop-house"></i>
+
+            </div>
+        </div>
+        <div class="icon">
+            <div class="text">
+                book your one
+
+            </div>
+            <div class="iccon">
+                <i class="fas fa-skating"></i>
+
+            </div>
+        </div>
+        <div class="icon">
+            <div class="text">
+               online booking
+
+            </div>
+            <div class="iccon">
+                <i class="fas fa-mobile"></i>
+
+            </div>
+        </div>
+        <div class="icon">
+            <div class="text">
+                payment method
+
+            </div>
+            <div class="iccon">
+                <i class="fas fa-hand-holding-usd"></i>
+
+            </div>
+        </div>
+        <div class="icon">
+            <div class="text">
+               privacy sector
+
+            </div>
+            <div class="iccon">
+                <i class="fas fa-lock"></i>
+
+            </div>
+        </div>
+    </div>
+        
+
+
+    </div>
+
+    </div>
+    
+        
+    
+</body>
+</html>
